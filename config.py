@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "26910777"))
 API_HASH = environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://vault.pictures/p/8bf0b544a4f64c3e9258faa0b5ec71af')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://media-hosting.imagekit.io//2f97e17ab4f94b34/New%20Project%2035%20[118696D].png?Expires=1836525042&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=RerSVsDTvLnBJaooSrmTgInicuMfQo~3P1Y7YN3rw3aznAsvv8uUlU6kOXRDtyDdiOcIGF8d3WFKXNDBVyENSalz0iSwCb5Z9UAnoPk~ksSF20ejt7D3n5eZceXe0Y5h8PTIPNcd3mpx5IJJvMXHO~EUu7W5O0FOZlfNuybQNARzM~bDB7VPinXldrwx3haLngvuMBBYguW34P6QAxzd9Xy1gjEhazpmZGns3h9YGG4wVo2vPtjCCtzlA8eLKZKaZJLnug7jTlr6dLtbTT17bif375hOY72NpTd8duNpjUqeJyzqDRGNSUzCxDJ671uAWsW6Ep3hAqDOMNlw0W2G7w__')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "SVMRIPPS_FILE_BOT") # without @
 PORT = environ.get("PORT", "8080")
