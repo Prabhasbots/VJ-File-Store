@@ -49,7 +49,9 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002259385936"))
 
 # File Caption Information
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}") •─────────★•🥰•★────────•")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", """<blockquote>{file_name}<blockquote>
+                                •─────────★•🥰•★────────•
+                                [𝐒𝐕𝐌𝐑𝗂ρρ𝗌] (https://t.me/SVMRIPPS)""")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
