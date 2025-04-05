@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "26910777"))
 API_HASH = environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', '')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://media-hosting.imagekit.io/4a4aa8c1c7ee44e8/IMG_20250403_100215_293.jpg?Expires=1838262908&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1d98-8YWFgIqtquDGlBh4FqUjAIG5VlhQixpZYCE48aCGfRCRq1EPhrq-VUxZ4HmjNr3q-b2e7syRSzoU1B4GeSO6k3sg0E-7D5T7ajcPIDKJNppU17SPy2x2G2XxG5I93AoHhIKV0954R4Wa0ciIcF35HDCLBVszK4C6QFXNElGHAZTT1y5haGt29xvA4ZnJmRzmWRf9BakRX40CC9rkWNgzSz2JnuZ0ujTVVhomu9HA1~hq4fkEQ4uON-ExYz9oWPXXS7jEGM-5ROOUHRvRuitmv7UJFlhd4P8n5A0YuPs1T7~B-v89Y7j0bZYhqpDaPLACWBI0rOMtBewOrlsDw__')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5232142502').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "baalveer5_bot") # without @
 PORT = environ.get("PORT", "8080")
