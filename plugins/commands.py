@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ Telegram Channel, url='https://t.me/Baalveer_5_AJ')
+            InlineKeyboardButton('💝 Join Telegram Channel', url='https://t.me/Baalveer_5_AJ')
         ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/AJ_TVSERIAL'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/AT_SERIAL')
